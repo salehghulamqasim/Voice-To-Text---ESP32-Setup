@@ -1,4 +1,4 @@
-# Voice-To-Text---ESP32-Setup
+# Voice-To-Text | ESP32-Setup
 
 This repo contains two tasks.
 
