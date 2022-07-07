@@ -1,0 +1,158 @@
+﻿*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 40px;
+    margin: 0;
+    background: linear-gradient(to left bottom, #711704, #030f6a);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.voice_to_text {
+    width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+p {
+    text-align: center;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: monospace;
+    font-size: 15px;
+    color:darkgoldenrod;
+}
+
+#convert_text {
+    width: 600px;
+    height: 150px;
+    border-radius: 40px;
+    resize: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    margin-bottom: 10px;
+    color:darkred;
+}
+
+
+button {
+    padding: 10px 100px;
+    background: #0ea4da;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width:0;
+}
+
+button1 {
+    direction: rtl;
+    text-align: right;
+    padding: 10px 100px;
+    background: #0ea4da;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 0;
+}
+input {
+    direction: rtl;
+    text-align: right;
+    padding: 10px 100px;
+    background: #0ea4da;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 0;
+}
+
+@media(max-width:480px) {
+    #convert_text {
+        padding: 5px 3px;
+    }
+
+    #convert_text {
+        display: flex;
+        height: 210px;
+        width: 360px;
+        border-radius: 20px;
+        resize: none;
+        padding: 14px;
+        font-size: 15px;
+        font-family: monospace;
+        margin-bottom: 1px;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        left: 0;
+    }
+
+    button1 {
+        direction: rtl;
+        text-align: right;
+        padding: 16px 62px;
+        background: #0ea4da;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+        border-radius: 25px;
+        position: absolute;
+        bottom: 95px;
+        right: 0;
+    }
+
+    button {
+        direction: ltr;
+        text-align: left;
+        padding: 20px 52px;
+        background: #0ea4da;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+        border-radius: 25px;
+        position: absolute;
+        bottom: 95px;
+        left: 0;
+    }
+
+    #bottom {
+        position: absolute;
+        bottom: 40px;
+        right: 0;
+        text-align: center;
+        font-family: Courier;
+        font-size: 27px;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 42px;
+        font-family: cursive;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        left: 0;
+    }
+}
