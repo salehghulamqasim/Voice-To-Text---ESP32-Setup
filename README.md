@@ -8,3 +8,7 @@ This repo contains two tasks.
   
 [**TASK 2 :**](https://github.com/salehghulamqasim/Voice-To-Text---ESP32-Setup/blob/main/ESP32%20setup%20steps/ESP32%20Setup%20steps.pdf) is about setting up Arduino ESP32 step by step until its ready to be used. I explained how to set it up using Arduino IDE as well as using Micropython interpreter.
   
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"
+  width="100"/>
+  </div>
